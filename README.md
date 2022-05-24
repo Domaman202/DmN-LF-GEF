@@ -1,16 +1,2 @@
-# Fabric Example Mod
-
-## Setup
-
-1. Edit gradle.properties, build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
-
-```
-./gradlew
-```
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Prev (До) - https://drive.google.com/file/d/1DELoqhCZWaZxe5B1dup8L7UXWyTxJqGM/view?usp=sharing
+Post (После) - https://drive.google.com/file/d/1XL1zOsknlmqZsa_hOTQ6Ex0rzmO59non/view?usp=sharing
