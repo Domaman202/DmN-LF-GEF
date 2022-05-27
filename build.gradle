@@ -39,6 +39,10 @@ dependencies {
 		implementation 'org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209'
 		implementation 'org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209'
 	}
+
+	compileOnly files("unsafe-mock-8.92.1.jar")
+	implementation group: 'org.javassist', name: 'javassist', version: '3.29.0-GA'
+	implementation group: 'net.bytebuddy', name: 'byte-buddy-agent', version: '1.12.10'
 }
 
 if (System.getProperty("os.name").toLowerCase().contains("mac")) {
